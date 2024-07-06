@@ -6,10 +6,10 @@ Some Arduino code to run a set of 'T' lights for trams, just like those found on
 
 ## Operation
 
-On startup, the red 'T' is illuminated.
-When push button is pushed, white 'T' will be illuminated for 8 seconds.
-Yellow 'T' will then be illuminated for 4 seconds.
-Red 'T' will then be held for 4 seconds, after which button can be pushed to trigger the cycles again.
+- On startup, the red 'T' is illuminated.
+- When push button is pushed, white 'T' will be illuminated for 8 seconds.
+- Yellow 'T' will then be illuminated for 4 seconds.
+- Red 'T' will then be held for 4 seconds, after which button can be pushed to trigger the cycles again.
 
 ## Hardware
 
@@ -30,7 +30,7 @@ Wiring to the relays:
 Note red is wired to the normally closed contacts, so that relay 2 does not need to be energised at all times.
 Relay 1 is not used, as it is connected to GPIO pin 16 which always turns ON when the board is powered up.
 
-DANGER: I'm powering everything from 240 V AC, as this is what the LED modules inside my traffic light run from.
+**DANGER**: I'm powering everything from 240 V AC, as this is what the LED modules inside my traffic light run from.
 
 So I've enclosed the relay board inside a 3D printed case to ensure nothing comes in contact with bare PCB traces. STL file for it can be found here:
 
