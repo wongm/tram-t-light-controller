@@ -1,4 +1,4 @@
-# 'T' light controller
+# Arduino powered 'T' light controller
 
 Some Arduino code to run a set of 'T' lights for trams, just like those found on the streets of Melbourne, Australia.
 
