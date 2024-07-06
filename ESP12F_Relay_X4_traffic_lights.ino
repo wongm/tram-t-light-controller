@@ -10,9 +10,9 @@ Bounce2::Button button = Bounce2::Button();
 /*
  * 
  * when power startup:
- * RED off: NC2 port
+ * RED on: NC2 port
  * YELLOW off: NO3
- * WHITE on: NC4
+ * WHITE off: NO4
  * 
  * skip port 1 - it flops around when MCU boots up
  * 
